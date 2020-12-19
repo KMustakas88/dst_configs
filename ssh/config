@@ -1,0 +1,36 @@
+## DST AWS ##
+Host dev
+    HostName 3.87.9.156
+    User ubuntu
+    IdentityFile ~/.ssh/keys/aws_dev00.pem
+
+Host sb01
+    Hostname  18.232.62.54
+    User centos
+    IdentityFIle ~/.ssh/keys/dst_sandbox.pem
+
+Host sb02
+    Hostname  54.242.91.81
+    User centos
+    IdentityFIle ~/.ssh/keys/dst_sandbox.pem
+
+Host sb03
+    Hostname  3.87.101.59
+    User centos
+    IdentityFIle ~/.ssh/keys/dst_sandbox.pem
+
+Host gpfs01
+    Hostname 3.95.20.134
+    User centos
+    IdentityFIle ~/.ssh/keys/dst-hpc-ftp.pem
+
+## BIOGEN ##
+Host biogen_aws01 
+    HostName 10.240.41.23
+    User centos
+    IdentityFile ~/.ssh/keys/biogen_aws.pem
+
+Host biogen_aws02
+    HostName 10.240.41.16
+    User centos
+    IdentityFile ~/.ssh/keys/biogen_aws.pem

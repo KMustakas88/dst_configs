@@ -1,0 +1,3 @@
+export BIOGEN_VPN=161.199.168.6
+export HA_VPN=64.89.97.75
+
