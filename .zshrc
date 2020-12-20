@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/gmustakas/.oh-my-zsh"
+export ZSH=$HOME"/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -104,11 +104,11 @@ source $HOME/miniconda3/etc/profile.d/conda.sh
 
 # VPNS
 ## load vpn aliases
-source $HOME/.vpn_aliases
+source $HOME/dst_configs/.vpn_aliases
 ## alias openconnect helper script
 alias connect=$HOME'/openconnect_helper/openconnect_script.sh -c'
 alias disconnect=$HOME'/openconnect_helper/openconnect_script.sh -d'
 
 # ZSH PLUGINS
-source /Users/gmustakas/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

@@ -34,3 +34,7 @@ Host biogen_aws02
     HostName 10.240.41.16
     User centos
     IdentityFile ~/.ssh/keys/biogen_aws.pem
+
+Host biogen_phead
+    HostName 10.9.77.200
+    User gmustaka
